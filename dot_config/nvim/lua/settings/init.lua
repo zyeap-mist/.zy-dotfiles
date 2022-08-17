@@ -12,8 +12,9 @@ set.smartcase = true
 
 set.splitbelow = true
 set.splitright = true
-set.wrap = false
+set.wrap = true
 
+set.cursorline = true
 set.number = true
 set.fileencoding = 'utf-8'
 set.termguicolors = true
