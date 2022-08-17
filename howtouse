@@ -1,0 +1,12 @@
+# To add dotfile
+chezmoi add <dotfile path>
+
+# Go to chezmoi directory
+chezmoi cd
+
+# To view the diff between ~/.local/share/chezmoi/dot_zshrc & ~/.zshrc
+chezmoi diff
+
+# To apply the changes to your original ~/.zshrc
+chezmoi -v apply
+

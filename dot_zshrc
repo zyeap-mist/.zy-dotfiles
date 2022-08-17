@@ -1,0 +1,30 @@
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# Path to your oh-my-zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
+
+ZSH_THEME="robbyrussell"
+
+plugins=(
+        git
+        colored-man-pages
+        jump
+        zsh-autosuggestions
+        zsh-syntax-highlighting
+    )
+
+source $ZSH/oh-my-zsh.sh
+
+# --------------------------------------
+# USER DEFINED ALIASES
+alias lrt='ls -lart'
+alias vim='nvim'
+alias zshrc='nvim ~/.zshrc'
+alias tmuxconf='nvim ~/.tmux.conf'
+alias yabairc='nvim ~/.yabairc'
+alias skhdrc='nvim ~/.skhdrc'
+alias gitconfig='nvim ~/.gitconfig'
+alias env='env | less'
+alias j='jump'
+# export PATH=$PATH:~/.config/diff-so-fancy
