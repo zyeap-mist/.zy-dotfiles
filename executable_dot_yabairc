@@ -32,7 +32,6 @@ yabai -m config left_padding                 0
 yabai -m config right_padding                0
 yabai -m config window_gap                   0
 
-# float system preferences, need to add zoom/teams to float
 yabai -m rule --add app='^System Information$' manage=off
 yabai -m rule --add app='^System Preferences$' manage=off
 yabai -m rule --add app='^QuickTime Player$' manage=off
@@ -40,7 +39,7 @@ yabai -m rule --add app="^Finder$" sticky=on layer=above manage=off
 yabai -m rule --add app="^Preview$" sticky=on layer=above manage=off
 yabai -m rule --add app="^Microsoft Excel$" sticky=on layer=above manage=off
 yabai -m rule --add app="^Microsoft Teams$" sticky=on layer=above manage=off
-yabai -m rule --add app="^zoom" sticky=on layer=above manage=off
+yabai -m rule --add app="^zoom.*$" sticky=on layer=above manage=off
 
 # float settings windows
 yabai -m rule --add title='Settings$' manage=off
