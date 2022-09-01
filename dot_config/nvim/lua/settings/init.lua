@@ -16,6 +16,7 @@ set.wrap = true
 
 set.cursorline = true
 set.number = true
+set.relativenumber = true
 set.fileencoding = 'utf-8'
 set.termguicolors = true
 set.mouse = 'a'
