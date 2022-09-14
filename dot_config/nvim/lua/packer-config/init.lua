@@ -12,6 +12,12 @@ return require'packer'.startup(function()
     use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
     use 'nvim-treesitter/nvim-treesitter-refactor'
 
+    -- Telescope plugin
+    use {
+      'nvim-telescope/telescope.nvim', tag = '0.1.0',
+      requires = { {'nvim-lua/plenary.nvim'} }
+    }
+
 	-- LSP config plugins
     use 'neovim/nvim-lspconfig'
 	use 'hrsh7th/nvim-cmp' -- Autocompletion plugin

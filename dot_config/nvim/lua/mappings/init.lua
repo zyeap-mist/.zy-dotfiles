@@ -9,3 +9,7 @@ map('', '<leader>h', '<C-w>h', opts)
 map('', '<leader>j', '<C-w>j', opts)
 map('', '<leader>k', '<C-w>k', opts)
 map('', '<leader>l', '<C-w>l', opts)
+
+-- telescope mappings
+map('n', '<leader>ff', ':Telescope find_files<CR>', opts)
+map('n', '<leader>fg', ':Telescope live_grep<CR>', opts)
