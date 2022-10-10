@@ -25,6 +25,5 @@ alias tmuxconf='nvim ~/.tmux.conf'
 alias yabairc='nvim ~/.yabairc'
 alias skhdrc='nvim ~/.skhdrc'
 alias gitconfig='nvim ~/.gitconfig'
-alias env='env | less'
 alias j='jump'
 # export PATH=$PATH:~/.config/diff-so-fancy
