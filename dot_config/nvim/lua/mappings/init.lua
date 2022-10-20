@@ -18,4 +18,4 @@ map('n', '<leader>gb', ':Telescope git_branches<CR>', opts)
 map('n', '<leader>gs', ':Telescope git_status<CR>', opts)
 
 -- null-ls formatting
-map('n', '<leader>lf', ':lua vim.lsp.buf.formatting()<CR>', opts)
+map("n", "<leader>lf", ":lua vim.lsp.buf.format { async = true }<CR>", opts)
