@@ -1,5 +1,5 @@
 local map = vim.api.nvim_set_keymap
-local opts = { noremap = true, silent = true}
+local opts = { noremap = true, silent = true }
 
 vim.g.mapleader = ' '
 
@@ -18,4 +18,4 @@ map('n', '<leader>gb', ':Telescope git_branches<CR>', opts)
 map('n', '<leader>gs', ':Telescope git_status<CR>', opts)
 
 -- null-ls formatting
-map("n", "<leader>lf", ":lua vim.lsp.buf.format { async = true }<CR>", opts)
+map('n', '<leader>lf', ':lua vim.lsp.buf.format { async = true }<CR>', opts)
