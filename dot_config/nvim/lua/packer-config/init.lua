@@ -7,6 +7,7 @@ return require'packer'.startup(function()
     use 'nanozuki/tabby.nvim'
     use 'windwp/nvim-autopairs'
     use 'fladson/vim-kitty'
+    use 'lewis6991/impatient.nvim'
 
 	-- Treesitter config plugins
     use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
