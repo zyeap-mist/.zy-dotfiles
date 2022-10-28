@@ -26,4 +26,5 @@ alias yabairc='nvim ~/.yabairc'
 alias skhdrc='nvim ~/.skhdrc'
 alias gitconfig='nvim ~/.gitconfig'
 alias j='jump'
+alias sf='fd --type f --hidden --exclude .git | fzf-tmux -p --reverse | xargs nvim'
 # export PATH=$PATH:~/.config/diff-so-fancy
