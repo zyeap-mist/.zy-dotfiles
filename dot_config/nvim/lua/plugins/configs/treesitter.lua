@@ -19,6 +19,7 @@ local options = {
 
   indent = {
     enable = true,
+    disable = {"python"}
   },
 }
 

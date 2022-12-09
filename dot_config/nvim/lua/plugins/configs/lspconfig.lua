@@ -64,4 +64,11 @@ lspconfig.sumneko_lua.setup {
   },
 }
 
+lspconfig.pyright.setup {
+  on_attach = M.on_attach,
+  capabilities = M.capabilities,
+}
+
+lspconfig.gopls.setup {}
+
 return M
