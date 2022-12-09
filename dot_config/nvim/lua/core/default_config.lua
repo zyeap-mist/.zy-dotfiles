@@ -14,7 +14,7 @@ M.ui = {
   hl_add = {},
   hl_override = {},
   changed_themes = {},
-  theme_toggle = { "chadracula", "one_light" },
+  theme_toggle = { "chadracula", "chadracula" },
   theme = "chadracula",
   transparency = false,
 }
