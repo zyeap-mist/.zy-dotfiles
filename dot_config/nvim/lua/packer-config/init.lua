@@ -1,16 +1,16 @@
 return require'packer'.startup(function()
     use 'wbthomason/packer.nvim'
+    use 'lewis6991/impatient.nvim'
+    use 'nathom/filetype.nvim'
     use 'Mofiqul/dracula.nvim'
     use 'kyazdani42/nvim-web-devicons'
     use 'kyazdani42/nvim-tree.lua'
     use 'nvim-lualine/lualine.nvim'
-    use 'nanozuki/tabby.nvim'
     use 'windwp/nvim-autopairs'
     use 'fladson/vim-kitty'
-    use 'lewis6991/impatient.nvim'
-    use 'nathom/filetype.nvim'
+    use 'nanozuki/tabby.nvim'
     use 'williamboman/mason.nvim'
-		
+
     -- Treesitter config plugins
     use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
     use 'nvim-treesitter/nvim-treesitter-refactor'
