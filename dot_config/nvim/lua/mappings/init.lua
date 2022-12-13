@@ -3,6 +3,8 @@ local opts = { noremap = true, silent = true }
 
 vim.g.mapleader = ' '
 
+map('n', '<Tab>', 'gt', opts)
+
 -- syntax: mode, keybinding, command, options
 map('n', '<leader>e', ':NvimTreeToggle<CR>', opts)
 map('', '<C-h>', '<C-w>h', opts)
